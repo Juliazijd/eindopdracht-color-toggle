@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.colortoggle__wrapper {
+  background: beige;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 30px;
+}
+
+.colortoggle__header {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.colortoggle__header h1 {
+  padding: 10px;
+}
+
+.colortoggle__menu-icon img {
+  cursor: pointer;
+  width: 30px;
+}
+
+.colortoggle__nav-menu {
+  cursor: pointer;
+}
+
+.colortoggle__color-menu {
+  list-style: none;
+  width: 0;
+  opacity: 0;
+  transition: ease-in-out;
+  transition-duration: 500ms;
+}
+
+.colortoggle__color-menu li {
+  opacity: 0;
+}
+
+.colortoggle__color-menu--show {
+  width: 100px;
+  opacity: 1;
+}
+
+.colortoggle__color-menu--show li {
+  padding: 10px;
+  width: 100px;
+  opacity: 1;
+}
+
+.colortoggle__color-menu--iceblue,
+.iceblue {
+  background: #78b2c5;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.background-text-iceblue::after {
+  content: "ICE BLUE";
+}
+
+.colortoggle__color-menu--salmon,
+.salmon {
+  background: salmon;
+}
+
+.background-text-salmon::after {
+  content: "SALMON";
+}
+
+.colortoggle__color-menu--teal,
+.teal {
+  background: teal;
+}
+
+.background-text-teal::after {
+  content: "TEAL";
+}
+
+.colortoggle__color-menu--khaki,
+.khaki {
+  background: khaki;
+}
+
+.background-text-khaki::after {
+  content: "KHAKI";
+}
+
+.colortoggle__color-menu--lilac,
+.lilac {
+  background: #9c5fc0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.background-text-lilac::after {
+  content: "LILAC";
+}
+
+.background-text {
+  color: #0b0b27;
+  display: block;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 3px;
+}/*# sourceMappingURL=style.css.map */
